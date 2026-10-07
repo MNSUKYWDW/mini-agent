@@ -1,0 +1,31 @@
+# 密钥
+.env
+.env.*
+!.env.example
+
+# 运行时产物
+tasks.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# 本地记忆 / 执行记录
+.mini-agent/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
